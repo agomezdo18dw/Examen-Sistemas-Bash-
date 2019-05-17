@@ -1,0 +1,11 @@
+#!/bin/bash
+
+Mensaje="Hola mundo"
+
+echo $Mensaje
+
+let a=1
+let b=2
+let suma=$a+$b
+
+echo "Suma: $a + $b = $suma"

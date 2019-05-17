@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "el usuario es: $LOGNAME y el nombre de la maquina: $HOSTNAME"

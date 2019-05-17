@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo 'Introduce cuan largo quieres que sea el bucle con for:'
+read var1
+echo 'El bucle:'
+
+for (( i=0; i<=$var1; i++ ))
+do
+	echo $i
+done

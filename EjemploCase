@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo 'Introduce un numero entre el 1 y el 5:'
+read var1
+
+case $var1 in
+1)
+	echo "El numero es el uno"
+;;
+2)
+	echo "El numero es el dos"
+;;
+3)
+	echo "El numero es el tres"
+;;
+4)
+	echo "El numero es el cuatro"
+;;
+5)
+	echo "El numero es el cinco"
+;;
+*)
+	echo "El numero es mayor que cinco"
+;;
+esac
+

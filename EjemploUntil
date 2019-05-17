@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo 'Introduce cuan largo quieres que sea el bucle con until:'
+read var1
+var2=0
+echo 'el buche:'
+
+until [[ $var2 -gt $var1 ]];
+do
+echo $var2
+var2=$(($var2+1))
+done

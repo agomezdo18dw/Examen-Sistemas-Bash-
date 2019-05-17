@@ -1,0 +1,11 @@
+#!/bin/bash
+# FILE: linelist
+#Usar: linelist filein fileout
+#Lee el fichero pasado en filein y
+#lo salva en fileout con las lineas numeradas
+count=0
+while read BUFFER
+do
+	count=$((++count))
+	echo "$count $BUFFER">> $2
+done < $1

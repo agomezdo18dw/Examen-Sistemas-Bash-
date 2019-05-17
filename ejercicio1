@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Creando $2.tar.gz de $1"
+
+mkdir $2
+cp -rf $1/* $2
+tar cvf $2.tar
+gzip $2.tar
+
